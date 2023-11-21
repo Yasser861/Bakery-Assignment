@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    /* min-height:650px; */
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar img{
+    width: 15% ;
+    margin-top: 10px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+.navbar ul li a{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.home_guest{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 100px;
+}
+.home_guest h1{
+    font-size: 60px;
+}
+.home_guest p{
+    font-size: 20px;
+    margin-top: 150px;
+}
+.home_guest h5{
+    font-size: 20px;
+}
+.home_guest button{
+    border: 1px white solid;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+/* .who_we_are{
+    overflow: hidden;
+} */
+.pic_for_us{
+    width: 48%;
+    /* float: left; */
+    display: inline-block;
+}
+.pic_for_us  img{
+    width: 70%;
+    margin-left: 150px;
+}
+.info_about_us{
+    width: 48%;
+    /* float: left; */
+    display: inline-block;
+    margin-top: 40px;
+}
+.info_about_us h2{
+    font-family: 'Alegreya Sans', sans-serif;
+} 
+.info_about_us p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    color: rgb(75, 74, 74);
+}
+.info_about_us ul{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(75, 74, 74);
+    list-style: none;
+}
+.info_icon{
+    overflow: auto;
+}
+.info_icon p{
+    width: 60%;
+    float: left;
+}
+.info_icon img{
+    width:5%;
+    border: 1px solid rgb(177, 176, 176);
+    border-radius: 50%;
+    float: left;
+}
+.buttons{
+    position: fixed;
+    right:0px;
+    top: 50%;
+    background-color: aliceblue;
+}
+/* ======================section our location============================ */
+.our_location{
+    width: 100%;
+    background-color: rgb(247, 245, 245);
+    /* overflow: auto; */
+}
+.location_info{
+    width: 40%;
+    display: inline-block;
+    /* float: left; */
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.location_info h2{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.location_info p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(75, 74, 74);
+}
+.loc_pic{
+    width: 40%;
+    display: inline-block;
+    /* float: left; */
+}
+.loc_pic img{
+    width: 90%;
+}
+.empty_space{
+    height: 150px;
+    background-color: rgb(247, 245, 245);
+}
+/* =======================section our baking================================ */
+.our_baking{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(247, 245, 245);
+}
+.baking{
+    text-align: center;
+}
+.baking h2{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.baking p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(75, 74, 74);
+}
+.product{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.product img{
+    width: 80%;
+    margin-top: 40px;
+}
+.product h3{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 200;
+}
+.product p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(75, 74, 74);
+}
+/* ================section contact================= */
+.contact{
+    overflow: hidden;
+    background-color: rgb(247, 245, 245);
+}
+.contact_info{
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+}
+.contact_info h2{
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+.contact_info p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    margin-left: 100px;
+    color: rgb(75, 74, 74);
+}
+.contact_info ul li{
+    /* margin-top: 15px; */
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(75, 74, 74);
+    list-style: none;
+}
+.loc_map{
+    width:40%;
+    float: left;
+    margin-left: 50px;
+}
+.map_icon{
+    overflow: auto;
+}
+.map_icon p{
+    float: left;
+    width: 80%;
+}
+.map_icon img{
+    float: left;
+    width: 5%;
+    background-color: rgb(142, 119, 84);
+    border-radius: 50%;
+    margin-left: 70px;
+}
+/* ================section footer=============== */
+footer{
+    overflow: hidden;
+}
+.up_footer{
+    background-color: rgb(64, 61, 56);
+    overflow: hidden;
+    padding: 40px 0;
+}
+.footer_list{
+    width:15%;
+    float: left;
+    margin-left: 100px;
+}
+.footer_list h4{
+    color: aliceblue;
+    font-family: 'Alegreya', serif;
+    font-weight: 200;
+    margin-left: 15px;
+}
+.footer_list p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: grey;
+}
+.footer_list ul{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: grey;
+    list-style: none;
+}
+.footer_list ul li{
+    padding: 10px 0;
+}
+/* .footer_icon{
+    overflow: hidden;
+}
+.footer_list ul li img{
+    width: 10%;
+    float: left;
+}
+.footer_list ul li p{
+    float: left;
+} */
+.down_footer{
+    width:100% ;
+    background-color: rgb(53, 51, 48);
+}
+.section_down_footer{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.section_down_footer img{
+    width: 60%;
+    margin: auto;
+}
+.section_down_footer a img{
+    width: 10%;
+    border-radius: 50%;
+}
+.section_down_footer p{
+    color: grey;
+}
